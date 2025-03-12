@@ -10,7 +10,10 @@ const app = new Hono<{
   }
 }>()
 
+// Bckend URL: https://backend.mandeepsingh36633.workers.dev
+// https://backend.mandeepsingh36633.workers.dev/api/v1/user/*
+
 app.route('/api/v1/user', UserRouter)
 app.route('/api/v1/blog', BlogRouter)
 
-export default app
+export default app      
