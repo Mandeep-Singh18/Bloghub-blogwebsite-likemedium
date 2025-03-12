@@ -1,9 +1,6 @@
-import { Hono } from 'hono'
-import { PrismaClient } from '@prisma/client/edge'
-import { withAccelerate } from '@prisma/extension-accelerate'
-import { decode, sign, verify } from 'hono/jwt'
-import { UserRouter } from './routes/user'
-import { BlogRouter } from './routes/blog'
+import { Hono } from 'hono';
+import { UserRouter } from './routes/user';
+import { BlogRouter } from './routes/blog';
 
 
 const app = new Hono<{
@@ -13,8 +10,7 @@ const app = new Hono<{
   }
 }>()
 
-app.route('/api/v1/user', UserRouter);
-app.route('/api/v1/blog', BlogRouter);
-
+app.route('/api/v1/user', UserRouter)
+app.route('/api/v1/blog', BlogRouter)
 
 export default app
