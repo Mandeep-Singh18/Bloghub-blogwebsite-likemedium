@@ -1,0 +1,1 @@
+This package conatin zod validation for frontend and backend for a bloging website 
