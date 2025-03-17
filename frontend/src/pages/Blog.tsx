@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useBlog } from "../hooks"
 import { Readfullblog } from "../components/Readfullblog";
 import { Appbar } from "../components/Appbar";
-import { Spinner } from "../components/spinner";
+import { Spinner } from "../components/Spinner";
 
 
 export const Blog = () => {
