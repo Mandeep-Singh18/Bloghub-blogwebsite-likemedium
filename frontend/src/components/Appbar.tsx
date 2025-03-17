@@ -1,12 +1,20 @@
+import { Link } from "react-router-dom"
 
 export const Appbar = () => {
-    return(
+    return (
         <div className="flex border-b border-gray-300 justify-between items-center px-10 py-2">
-            <div className="text-2xl font-bold font-serif">
+            <Link to={'/blogs'} className="text-2xl font-bold font-serif cursor-pointer">
                 Bloghub
-            </div>
-            <div className="w-10 h-10 flex items-center justify-center bg-slate-500 text-white text-lg font-bold rounded-full">
-                B
+            </Link>
+            <div className="flex ">
+                <Link to={'/publish'}>
+                    <button className="border py-2 px-4 mx-4 rounded-full cursor-pointer">
+                        Write
+                    </button>
+                </Link>
+                <div className="w-10 h-10 flex items-center justify-center bg-slate-500 text-white text-lg font-bold rounded-full">
+                    B
+                </div>
             </div>
         </div>
     )
