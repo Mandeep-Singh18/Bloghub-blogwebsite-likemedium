@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export const Appbar = () => {
     return (
-        <div className="flex border-b border-gray-300 justify-between items-center px-10 py-2">
+        <div className="flex fixed top-0 left-0 right-0 bg-white border-b border-gray-300 justify-between items-center px-10 py-2">
             <Link to={'/blogs'} className="text-2xl font-bold font-serif cursor-pointer">
                 Bloghub
             </Link>

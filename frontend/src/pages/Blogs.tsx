@@ -16,8 +16,9 @@ export const Blogs = () => {
 
     if(blogs) return (
         <div>
-            <Appbar />
-            <div className="bg-white p-5  border-gray-300 w-full mx-auto max-w-2xl">
+            <Appbar/>
+            
+            <div className="bg-white shadow-lg rounded-lg p-4 mt-10 border-gray-300  w-full mx-auto max-w-2xl">
                 {blogs.map((blog) => ( 
                     <BlogCard
                         key={blog.id}

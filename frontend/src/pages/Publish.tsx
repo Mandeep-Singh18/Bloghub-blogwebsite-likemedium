@@ -11,7 +11,7 @@ export const Publish = () => {
     return (
         <div>
             <Appbar />
-            <div className="max-h-screen  flex justify-center p-6">
+            <div className="max-h-screen mt-10 flex justify-center p-6">
                 <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-lg">
                     <input
                         type="text"

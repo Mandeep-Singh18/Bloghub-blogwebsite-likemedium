@@ -8,9 +8,9 @@ const LandingPage: React.FC = () => {
             <header className="px-10 py-3 bg-white shadow-md text-gray-900">
                 <div className="container mx-auto flex justify-between items-center">
                     <h1 className="text-3xl font-bold">Bloghub</h1>
-                    <div>
+                    <div className='flex items-center'>
                         <Link to={'/signin'}>
-                            <button className="text-black rounded-full cursor-pointer mr-4">Sign in</button>
+                            <button className=" text-black rounded-full cursor-pointer mr-4 hidden lg:block">Sign in</button>
                         </Link>
                         <Link to={'/signup'}>
                             <button className="px-6 py-2 text-black rounded-full border cursor-pointer hover:bg-black hover:text-white">Get Started</button>

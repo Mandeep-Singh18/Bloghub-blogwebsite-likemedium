@@ -26,7 +26,7 @@ export const useBlog = (id: string) => {
                 setLoading(false);
             })
     }, [id])
-
+    
     return { blog, loading };
 }
 
