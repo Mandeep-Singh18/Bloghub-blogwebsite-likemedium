@@ -6,6 +6,14 @@
 
 Check out the live version here: [bloghub-eta.vercel.app](https://bloghub-eta.vercel.app)
 
+## 🖼️ Demo
+
+   Here’s a quick look at the UI:
+   ![Screenshot 2025-05-14 122304](https://github.com/user-attachments/assets/8490aecd-28e3-4603-b304-16aac98a1c90)
+   ![Screenshot 2025-05-14 122323](https://github.com/user-attachments/assets/48e9d5ee-9c0b-4252-8e45-0c4e5a98ebf5)
+   ![Screenshot 2025-05-14 123127](https://github.com/user-attachments/assets/5e2bbf82-98a7-4d5e-a71e-62322d72e1e0)
+   ![Screenshot 2025-05-14 123148](https://github.com/user-attachments/assets/110ee0ee-0028-42f8-a357-774387fb26f6)
+
 ## 🚀 Tech Stack
 
 - **Frontend**: React, TypeScript,  
